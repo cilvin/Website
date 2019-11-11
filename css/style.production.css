@@ -452,6 +452,10 @@ textarea:focus {
   .image {
     margin-left: 315px;
   }
+
+  .overlay {
+    margin-left: 315px;
+  }
   
  
   
@@ -479,7 +483,7 @@ textarea:focus {
     width: 1200px;
   }
   .navigation-list {
-    margin-right: 100px;
+    margin-right: 150px;
   }
 }
 
