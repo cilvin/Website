@@ -9,10 +9,10 @@ background-color (light gray): #B0B0B2
   --primary-color-lighter: #5db9ab;
   --secondary-color: #e0b354;
   --third-color: #2b2b2b;
-  --fourth-color: #21222D;
+  --fourth-color: #21222d;
   --fith-color: #05676e;
   --sixth-color: #489c79;
-  --seventh-color: #D3D3D3;
+  --seventh-color: #d3d3d3;
   --eigth-color: #ffffff;
   --ninth-color: #edc655;
   --tenth-color: #f76414;
@@ -20,10 +20,10 @@ background-color (light gray): #B0B0B2
   --normal-padding: 10px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
-  
 }
 
 a {
@@ -31,13 +31,12 @@ a {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: normal;
   color: var(--fourth-color);
   width: auto;
-
 }
 
 h1 {
@@ -55,17 +54,20 @@ h3 {
   font-weight: var(--primary-font-weight);
 }
 
-a:visited, a:focus {
+a:visited,
+a:focus {
   /* visited link */
   color: var(--fith-color);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
 }
 
-a:active, a:focus {
+a:active,
+a:focus {
   /*slected link*/
   color: var(--sixth-color);
 }
@@ -84,20 +86,22 @@ a:active, a:focus {
 }
 
 .contact-wrapper::after {
-  content: "";
+  content: '';
   display: block;
 }
 
-.page-footer, .contact-wrapper::after {
+.page-footer,
+.contact-wrapper::after {
   height: 120px;
 }
 
 .profile::after {
-  content: "";
+  content: '';
   display: block;
 }
 
-.page-footer, .profile::after {
+.page-footer,
+.profile::after {
   height: 120px;
 }
 
@@ -229,6 +233,12 @@ a:active, a:focus {
   margin-right: 50px;
 }
 
+#moment {
+  height: 70px;
+  width: 200px;
+  margin-right: 50px;
+}
+
 .techList {
   list-style: none;
   margin-right: 40px;
@@ -250,7 +260,6 @@ a:active, a:focus {
 
 .workitm {
   text-align: center;
-  
 }
 
 * {
@@ -405,25 +414,19 @@ textarea:focus {
     width: 400px;
     height: 400px;
   }
-
- 
 }
-
-
 
 @media (max-width: 1000px) {
   .navigation-list {
-    margin-right: 20px;;
+    margin-right: 20px;
   }
 }
-
 
 @media (max-width: 1200px) {
   body {
     width: 1000px;
   }
 }
-
 
 @media (max-width: 1200px) {
   .overlay {
@@ -440,13 +443,10 @@ textarea:focus {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    
-
   }
 
   .grid__item {
     width: 100%;
-   
   }
 
   .image {
@@ -456,14 +456,7 @@ textarea:focus {
   .overlay {
     margin-left: 315px;
   }
-  
- 
-  
 }
-
-
-
-
 
 @media all and (max-width: 750px) {
   .grid {
@@ -478,8 +471,103 @@ textarea:focus {
   h1 {
     font-size: 22px;
   }
+}
 
- 
+@media all and (min-width: 1350px) {
+  .image {
+    margin-left: 60px;
+    
+
   
+    
+  }
+
+  .overlay {
+    margin-left: 60px;
+  }
+}
+
+@media all and (min-width: 1548px) {
+  .image {
+    margin-left: 100px;
+    
+
+  
+    
+  }
+
+  .overlay {
+    margin-left: 100px;
+  }
+}
+
+@media all and (min-width: 1740px) {
+  .image {
+    margin-left: 140px;
+    
+
+  
+    
+  }
+
+  .overlay {
+    margin-left: 140px;
+  }
+}
+
+@media all and (min-width: 1890px) {
+  .image {
+    margin-left: 180px;
+    
+
+  
+    
+  }
+
+  .overlay {
+    margin-left: 180px;
+  }
+}
+
+@media all and (min-width: 2020px) {
+  .image {
+    margin-left: 220px;
+    
+
+  
+    
+  }
+
+  .overlay {
+    margin-left: 220px;
+  }
+}
+
+@media all and (min-width: 2200px) {
+  .image {
+    margin-left: 260px;
+    
+
+  
+    
+  }
+
+  .overlay {
+    margin-left: 260px;
+  }
+}
+
+@media all and (min-width: 2368px) {
+  .image {
+    margin-left: 290px;
+    
+
+  
+    
+  }
+
+  .overlay {
+    margin-left: 290px;
+  }
 }
 
